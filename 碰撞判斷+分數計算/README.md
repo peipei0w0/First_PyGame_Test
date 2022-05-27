@@ -27,7 +27,7 @@
         font_name = pygame.font.match_font('Calibri')
         ```
      * ###### 定義 draw_text
-       > ###### font.render(文字, 平滑度, 文字顏色, 背景顏色)：將文字做(渲染)出來
+       > ###### font.render(文字, 平滑度, 文字顏色, 背景顏色)：將文字做(渲染)出來 => 文字圖片
        > ###### surf.blit(文字平面, 繪製位置)：將做出來的文字畫到屏幕上
         ```python
         def draw_text(surf, text, size, x, y):
