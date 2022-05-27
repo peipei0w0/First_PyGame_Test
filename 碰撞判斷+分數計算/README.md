@@ -4,8 +4,8 @@
 
 * ###### 碰撞判斷
   * ###### 預設是矩形
-     * ###### False：if player 跟 enemy 射出的子彈碰撞，不要刪掉 player
-     * ###### spritecollide(物件, sprite群組, bool值, bool值)
+     > ###### False：if player 跟 enemy 射出的子彈碰撞，不要刪掉 player
+     > ###### spritecollide(物件, sprite群組, bool值, bool值)
         ```python
         pygame.sprite.spritecollide(player, enemy_bullets, False)
         ```
