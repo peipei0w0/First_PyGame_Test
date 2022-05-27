@@ -1,5 +1,10 @@
 # 碰撞判斷 + 分數計算
 
+* ###### 新增規則：
+    > ###### 兩架飛機都不可進到敵方領地
+    > ###### 如果兩架飛機撞到代表平手
+    > ###### 新增關卡搶占領地？？？
+
 <div align = "center"><img width="293" alt="12" src="https://user-images.githubusercontent.com/59371107/170766526-4f56ba2b-b2a1-4387-a216-996580b8faab.png"></div>
 
 * ###### 碰撞判斷
