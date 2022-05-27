@@ -6,9 +6,9 @@
   * ###### 預設是矩形
      > ###### False：if player 跟 enemy 射出的子彈碰撞，不要刪掉 player
      > ###### spritecollide(物件, sprite群組, bool值, bool值)
-        ```python
-        pygame.sprite.spritecollide(player, enemy_bullets, False)
-        ```
+     ```python
+     pygame.sprite.spritecollide(player, enemy_bullets, False)
+     ```
   * ###### 圓形碰撞判斷 - pygame.sprite.collide_circle
     ```python
     pygame.sprite.spritecollide(player, enemy_bullets, False, pygame.sprite.collide_circle)
@@ -17,8 +17,8 @@
   * ###### Final 碰撞判斷
       ```python
       player_hits = pygame.sprite.spritecollide(player, enemy_bullets, False, pygame.sprite.collide_circle)
-            enemy_hits = pygame.sprite.spritecollide(enemy, player_bullets, False, pygame.sprite.collide_circle)
-            tie_hits = pygame.sprite.spritecollide(player, enemy_group, False, pygame.sprite.collide_circle)
+      enemy_hits = pygame.sprite.spritecollide(enemy, player_bullets, False, pygame.sprite.collide_circle)
+      tie_hits = pygame.sprite.spritecollide(player, enemy_group, False, pygame.sprite.collide_circle)
       ```
     
 * ###### 添加文字
