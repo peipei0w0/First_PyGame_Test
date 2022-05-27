@@ -27,14 +27,16 @@
         font_name = pygame.font.match_font('Calibri')
         ```
      * ###### 定義 draw_text
+       > ###### font.render(文字, 平滑值, 文字顏色, 背景顏色)：將文字做(渲染)出來
+       > ###### surf.blit(文字平面, 繪製位置)：將做出來的文字畫到屏幕上
         ```python
         def draw_text(surf, text, size, x, y):
-        font = pygame.font.Font(font_name, size)
-        text_surface = font.render(text, True, WHITE)  #將文字渲染出來
-        text_rect = text_surface.get_rect()
-        text_rect.centerx = x
-        text_rect.top = y
-        surf.blit(text_surface, text_rect)  #將文字畫到屏幕上
+            font = pygame.font.Font(font_name, size)
+            text_surface = font.render(text, True, WHITE)
+            text_rect = text_surface.get_rect()
+            text_rect.centerx = x
+            text_rect.top = y
+            surf.blit(text_surface, text_rect)
         ```
         
 * ###### 建立分數
