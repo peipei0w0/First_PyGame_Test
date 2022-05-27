@@ -1,7 +1,8 @@
 # 飛船背景移動
 
-<pre>
-  class Background(pygame.sprite.Sprite):
+
+```python
+class Background(pygame.sprite.Sprite):
     def __init__(self,is_alt=False):
         #super().__init__("img/background.jpg")
         pygame.sprite.Sprite.__init__(self)
@@ -22,4 +23,4 @@
   bg1 = Background()
   bg2 = Background(is_alt=True)
   all_sprites.add(bg1,bg2)
-</pre>
+```
