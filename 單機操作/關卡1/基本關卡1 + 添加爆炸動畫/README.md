@@ -1,5 +1,11 @@
 # 固定時間射出子彈 + 爆炸動畫(2022.05.29)
 
+<div align = "center">
+   <img width="293" alt="12" src="https://user-images.githubusercontent.com/59371107/170839814-ce17b4a2-5044-4a32-9504-b63195ed7b61.png">
+   <----------->
+   <img width="293" alt="12" src="https://user-images.githubusercontent.com/59371107/170839847-9b0c93d9-dbf3-41e8-aeb7-d71129e30d04.png">
+</div>
+
 1. ###### 敵方在固定時間射出子彈
     * ###### 設定子彈射出間隔時間、數量
         ```python
